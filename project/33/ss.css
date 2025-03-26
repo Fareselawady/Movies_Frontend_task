@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1c1c1c;
+    color: #fff;
+    margin: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #4ab7c3;
+}
+
+header a {
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+}
+
+header input[type="text"] {
+    padding: 5px;
+    border-radius: 3px;
+    border: none;
+}
+
+.content {
+    padding: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    color: #4ab7c3;
+    margin-top: 20px;
+}
+
+.movies {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+}
+
+.movie {
+    background-color: #2c2c2c;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.movie p {
+    margin-top: 10px;
+    font-size: 14px;
+}
